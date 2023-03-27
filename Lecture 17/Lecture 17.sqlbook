@@ -76,6 +76,8 @@ INSERT INTO drivers  VALUES (3, 'Sebastian Vettel', 'German',91);
 
 INSERT INTO drivers  VALUES (2, 'Michael Schumacher', 'German',53);
 
+INSERT INTO drivers VALUES (12, 'Sean Jeon', 'Korean', 100);
+
 -- SQLBook: Markup
 <font size="5"> 
 
@@ -99,7 +101,9 @@ Try it yourself!
 -- Select a new driver id (needs to be unique)
 -- Make sure to deparate arguments by a semicolon!
 
-
+Insert into drivers values (5, 'Heha Murthy', 'Indian', 14);
+Insert into drivers values (1, 'Harry Park', 'Korean', 12);
+Insert into drivers values (20, 'Serene Ahn', 'Korean', 19);
 
 -- SQLBook: Markup
 # <span style="color:darkblue"> II. Dataset Operations </span>
