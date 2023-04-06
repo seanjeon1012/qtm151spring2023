@@ -190,7 +190,8 @@ Try it yourself!
 with more than 60 victories
 -- SQLBook: Code
 -- Write your own code!
-
+SELECT nationality, driver_id, victories FROM drivers
+WHERE victories > 60;
 
 
 -- SQLBook: Markup
@@ -249,7 +250,6 @@ HAVING SUM(victories) > 50;
 # <span style="color:darkblue"> IV. Learning more </span>
 
 <font size = "5">
-
 Equivalence:
 
 **PYTHON** $\qquad \qquad \ \ $ **SQL** <br>
